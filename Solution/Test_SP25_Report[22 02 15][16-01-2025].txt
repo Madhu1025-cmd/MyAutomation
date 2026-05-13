@@ -1,0 +1,46 @@
+********************************************************
+UUT Report
+Station ID:                   MADHUKAR
+Serial Number:                NONE
+Date:                         16 January 2025
+Time:                         22:02:15
+Operator:                     administrator
+Execution Time:               13.6215694 seconds
+Number of Results:            4
+UUT Result:                   Error, Call Library Function Node in PowerSupply.lvlib:PowerSupply_Initialize.vi LabVIEW: (Hex 0x7) File not found. The file might be in a different location or deleted. Use the command prompt or the file explorer to verify that the path is correct. ========================= Nonexistent GPIB interface. [Error Code: 7, Code Module/User-defined error code.]
+********************************************************
+
+Begin Sequence: MainSequence
+(C:\Users\APPLE\Downloads\CTD Sample Exam\Solution\Test_SP25.seq)
+
+Setup:                         Error
+     Error Message:            Call Library Function Node in PowerSupply.lvlib:PowerSupply_Initialize.vi LabVIEW: (Hex 0x7) File not found. The file might be in a different location or deleted. Use the command prompt or the file explorer to verify that the path is correct. ========================= Nonexistent GPIB interface. [Error Code: 7]
+     Module Time:              7.5805084
+
+   Begin Sequence: Setup
+   (C:\Users\APPLE\Downloads\CTD Sample Exam\Solution\Test_SP25.seq)
+
+   Initialize PowerSupply:        Error
+        Error Message:            Call Library Function Node in PowerSupply.lvlib:PowerSupply_Initialize.vi LabVIEW: (Hex 0x7) File not found. The file might be in a different location or deleted. Use the command prompt or the file explorer to verify that the path is correct. ========================= Nonexistent GPIB interface. [Error Code: 7]
+        Module Time:              0.7223701
+
+   End Sequence: Setup
+
+Cleanup:                       Error
+     Error Message:            Call Library Function Node in CTD_DMM.lvlib:DMM_Close.vi LabVIEW: (Hex 0x7) File not found. The file might be in a different location or deleted. Use the command prompt or the file explorer to verify that the path is correct. ========================= Nonexistent GPIB interface. [Error Code: 7]
+     Module Time:              5.7340181
+
+   Begin Sequence: Cleanup
+   (C:\Users\APPLE\Downloads\CTD Sample Exam\Solution\Test_SP25.seq)
+
+   Close DMM:                     Error
+        Error Message:            Call Library Function Node in CTD_DMM.lvlib:DMM_Close.vi LabVIEW: (Hex 0x7) File not found. The file might be in a different location or deleted. Use the command prompt or the file explorer to verify that the path is correct. ========================= Nonexistent GPIB interface. [Error Code: 7]
+        Module Time:              0.0025845
+
+   End Sequence: Cleanup
+
+
+End Sequence: MainSequence
+
+End UUT Report
+
